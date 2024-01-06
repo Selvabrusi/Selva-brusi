@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Design Web Page</title>
+<style>
+#table, th {
+border: 1px solid black;
+  
+margin:10px;
+padding:5px;
+}
+#table {
+border-spacing: 0px;
+}
+</style>
+</head>
+<body>
+<center>
+<h2 style="color:green;">Land Of Boxes Order Form</h2>
+</center><br><br>
+<form>
+<table>
+<tr><td>
+Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="name"><br><br></td></tr>
+  
+<tr><td> Email :&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <input type="email" name="email"><br><br></tr>
+
+<tr><td> Address: <textarea rows="4" cols="50"></textarea><br><br></td></tr>
+<tr><td> PostCode: <input type="number" name="postcode"><br><br></td></tr>
+
+<table id="table" border = "1">
+<tr>
+<th>Product</th>
+<th>Part Number</th>
+<th>Quantity</th>
+<th>Unit Price</th>
+<th>Sub total</th>
+</tr>
+  
+<tr>
+<td>EconoBox</td>
+<td>LB100</td>
+<td>3</td>
+<td>R5</td>
+<td>R15</td>
+  
+  
+</tr>
+  
+  
+<tr>
+<td>Standard Box</td>
+<td>LB200</td>
+<td>4</td>
+<td>R10</td>
+<td>R40</td>
+  
+  
+</tr> <tr>
+<td>Premium Box/TD</td>
+<td>LB300</td>
+<td>1</td>
+<td>R15</td>
+<td>R15</td>
+  
+  
+</tr>
+  
+<tr>
+<td>Deluxe Box/TD</td>
+<td>LB400</td>
+<td>0</td>
+<td>R20</td>
+<td></td>
+  
+  
+</tr>
+<tr>
+<td>Super Deluxe Box/TD</td>
+<td>LB500</td>
+<td>1</td>
+<td>R30</td>
+<td>R30</td>
+  
+  
+</tr>
+  
+<tr >
+  
+<td colspan="4" >Total</td>
+<td>R100</td>
+</tr>
+  
+  
+</table>
+  
+<br><br>
+
+<h2>Credit Card Details</h2><br><br>
+Card Type :<br><br>
+
+<input type="radio" name="Mastercard" value="Mastercard" checked> Mastercard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Card Number :&nbsp; <input type="number" name="cardnumber"><br><br>
+<input type="radio" name="Visa" value="Visa"> Visa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Expiry Date :&nbsp; &nbsp; <input type="datetime" name="date"><br><br>
+<input type="radio" name="AmericanExpress" value="AmericanExpress"> American Express<br><br>
+<input type="radio" name="dinnersclub" value="dinnersclub" > Dinners Club<br><br>
+  
+Delivery Address : &nbsp;&nbsp;<textarea rows="4" cols="50"></textarea><br><br>
+
+<input type="submit" value="Send Order"> &nbsp;&nbsp; <input type="button" name="Clear" value="Clear form">
+
+
+</form>
+
+
+</body>
+
+
+</html>
+
